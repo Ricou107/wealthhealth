@@ -1,0 +1,18 @@
+main.homepage{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+main.homepage button{
+    margin: 2rem 0;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: green;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+}
+main.homepage button:hover{
+    background-color: rgb(92, 153, 92);
+}
