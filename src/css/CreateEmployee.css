@@ -50,12 +50,6 @@
 .form-create-employee .zip label{
     width: 100%;
 }
-.form-create-employee .zip input{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-}
 .form-create-employee .submit-btn{
     padding: 15px;
     background-color: antiquewhite;

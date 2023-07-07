@@ -9,6 +9,7 @@ header.header-hrnet{
 }
 
 header.header-hrnet img.logo-header-hrnet{
+    width: 80px;
     mix-blend-mode: multiply;
 }
 header hr{

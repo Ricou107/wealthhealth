@@ -11,7 +11,7 @@ export default function UserConnected(props) {
         <section className="employee-connected">
             <div>
                 <img src={User} alt="Logo d'un utilisateur." />
-                <p>John Doe</p>
+                <p>Eric Leroux</p>
             </div>
             <button onClick={props.onClick}>{props.toggleText}</button>
         </section>

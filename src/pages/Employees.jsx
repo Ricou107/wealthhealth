@@ -38,7 +38,7 @@ export default function Hrnet() {
 
                 <h1>Current Employees</h1>
 
-                <DataTable columns={columnsTable} data={employees} />
+                <DataTable columns={columnsTable} data={employees.reverse()} />
             </main>
         </>
     )

@@ -1,5 +1,5 @@
 import "../css/HeaderEmployees.css"
-import LogoHeaderHrnet from "../assets/logo-wealthhealth.webp"
+import LogoHeaderHrnet from "../assets/logo.png"
 import UserConnected from "./UserConnected" 
 import { Link } from "react-router-dom"
 

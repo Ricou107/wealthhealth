@@ -15,10 +15,11 @@ export const useEmployeeTable = () => {
         return employee.newEmployee[0];
     }))
     const emp = [];
-    if (employees.length < 20) {
+    if (employees.length < 10) {
         for (let i = 0; i < 10; i++) {
             const newEmployee = [
                 {
+                    id: Math.floor(Math.random() * 10000),
                     firstName: faker.name.firstName(),
                     lastName: faker.name.lastName(),
                     birthDate: faker.date.past().toISOString().slice(0, 10),

@@ -30,6 +30,7 @@ export default function CreateEmployee(props) {
     // This is what will allow us to store the values of the new employee in Redux.
     const newEmployee = [
         {
+            id: Math.floor(Math.random() * 10000),
             firstName,
             lastName,
             birthDate: dateFormat(new Date(birthDate)),
@@ -87,17 +88,17 @@ export default function CreateEmployee(props) {
                 <hr />
                 <section className="state-department">
                     <div>
-                        <label htmlFor="State">State</label>
+                        <span>State</span>
                         <Select required options={dataStates} onChange={handleChange} />
                     </div>
                     
                     <div>
-                        <label htmlFor="Department">Department</label>
+                        <span>Department</span>
                         <Select required options={dataDepartments} onChange={handleChangeDepartment} />
                     </div>
                 </section>
                 <section className="zip">
-                    <label htmlFor="StartDate">Zip Code</label>
+                    <span>Zip Code</span>
                     <input required id="Zip Code" placeholder="0" type="number" name="zip" onChange={(e) => setItsZipCode(e.target.value)} />
                 </section>
                 <input className="submit-btn" type="submit" name="submit" value="Submit" />
