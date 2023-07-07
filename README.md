@@ -19,7 +19,7 @@ Fourteenth OpenClassrooms project on "Front-End Developer" training.
 
 ## Plugin designed by myself for the project
 
-- [react-modal-component-tool](https://www.npmjs.com/package/react-modal-component-tool) : React Modal Component Tool
+- [react-component-modal-eric-leroux](https://www.npmjs.com/package/react-component-modal-eric-leroux) : React Modal Component Tool
 
 ## Launching the front 
 

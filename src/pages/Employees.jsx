@@ -6,7 +6,7 @@ import { useSelector } from "react-redux"
 import { useState } from "react";
 
 import DataTable from 'react-data-table-component';
-import { Modal } from "react-modal-component-tool";
+import ModalComponent from 'react-component-modal-eric-leroux';
 
 import { columnsTable } from "../app/datas";
 
@@ -28,9 +28,9 @@ export default function Hrnet() {
             <main className="employees">
                 {setModalOpen ? 
                     <>
-                        <Modal addCSS="testMVP">
+                        <ModalComponent>
                             <CreateEmployee onClick={handleClick} setModalOpen={setModalOpen} isModalOpen={isModalOpen}  />
-                        </Modal>
+                        </ModalComponent>
                     </>
                     :
                     null
